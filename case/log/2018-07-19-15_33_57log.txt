@@ -1,0 +1,608 @@
+07-19 15:33:37.711  1106  1106 I RUIMD   : Socket {SDK} Send Package {a016:0000a016} : Serial=[0410] Options=[00] Data[0004]=[0000000a...] CRC=[45c4]
+07-19 15:33:37.711  1106  1106 D RUIMD   : Socket {SDK} Send    17 bytes. SO_SNDBUF usage :    768/212992
+07-19 15:33:37.711  1106  1106 W RUIMD   : Create Server Socket [13.228.189.229:18080] Failed!
+07-19 15:33:37.712  1106  1106 D RUIMD   : Notify Message : Create Server Socket [13.228.189.229:18080] Failed!
+07-19 15:33:37.712  1106  1106 D RUIMD   : server_connect(policy={ENABLE : User Operating}, status={DISABLE : NULL DESC}, next_call = 7s)
+07-19 15:33:37.712  1106  1106 D RUIMD   : server_connect(policy={ENABLE : User Operating}, status={DISABLE : NULL DESC}, next_call = 0s)
+07-19 15:33:37.712  1106  1106 D RUIMD   : server_login(policy={ENABLE : User Operating}, status={DISABLE : User Operating}, next_call = 300s)
+07-19 15:33:37.712  1106  1106 D RUIMD   : server_login(policy={ENABLE : User Operating}, status={DISABLE : User Operating}, next_call = 0s)
+07-19 15:33:37.712  1106  1106 D RUIMD   : server_schedule(policy={ENABLE : User Operating}, status={DISABLE : User Operating}, next_call = 60s)
+07-19 15:33:37.730  1106 22274 D RUIMD   : Client Address 192.168.1.134:14512
+07-19 15:33:37.730  1106 22274 D RUIMD   : server_connect.SetStatusCause, status : 1, cause : NULL
+07-19 15:33:37.730  1106 22274 D RUIMD   : server_connect.SetStatusCause, status : 1, cause : Pass
+07-19 15:33:37.730  1106 22274 D RUIMD   : System State: {WorkMode=NORMAL;NetWork=WIFI;Connection=Pass;Login=User Operating;RUIM=Server Logout;IMG=Non RUIM;SIM=Non RUIM;AUTH=Non RUIM;REG=Non RUIM;MDM=RUIM, NULL, UNKNOWN, -113;McWill=POWER OFF, LOGOUT, -111, Poor}
+07-19 15:33:37.730  1106 22274 I RUIMD   : {13570818004} Login {13.228.189.229:18080} Response : code=[11] ,desc={Pass}
+07-19 15:33:37.730  1106 22274 I RUIMD   : Socket {SDK} Send Package {a016:0000a016} : Serial=[0411] Options=[00] Data[0004]=[0000000b...] CRC=[85d5]
+07-19 15:33:37.730  1106 22274 D RUIMD   : Socket {SDK} Send    17 bytes. SO_SNDBUF usage :    768/212992
+07-19 15:33:37.730  1106 22274 D RUIMD   : server_login(policy={ENABLE : User Operating}, status={DISABLE : User Operating}, next_call = 300s)
+07-19 15:33:37.730  1106 22274 D RUIMD   : server_schedule(policy={ENABLE : User Operating}, status={DISABLE : User Operating}, next_call = 60s)
+07-19 15:33:37.730  1106 22274 D RUIMD   : server_login(policy={ENABLE : User Operating}, status={DISABLE : User Operating}, next_call = 0s)
+07-19 15:33:38.711  1106  1106 D RUIMD   : server_connect(policy={ENABLE : User Operating}, status={ENABLE : Pass}, next_call = 7s)
+07-19 15:33:38.711  1106  1106 D RUIMD   : --------------------- ServerLoginRequest ---------------------
+07-19 15:33:38.711  1106  1106 D RUIMD   : [XBQ] ServerLoginRequest 
+07-19 15:33:38.712  1106  1106 I RUIMD   : Socket {SERVER} Send Package {0001:LOGIN} : Serial=[004f] Options=[00] Data[0042]=[0a0b3133353730383138303034121055...] CRC=[7549]
+07-19 15:33:38.712  1106  1106 D RUIMD   : Socket {SERVER} Send    79 bytes. SO_SNDBUF usage :     79/524288
+07-19 15:33:38.712  1106  1106 D RUIMD   : server_login.SetStatusCause, status : 0, cause : User Operating
+07-19 15:33:38.712  1106  1106 D RUIMD   : System State: {WorkMode=NORMAL;NetWork=WIFI;Connection=Pass;Login=User Operating;RUIM=Server Logout;IMG=Non RUIM;SIM=Non RUIM;AUTH=Non RUIM;REG=Non RUIM;MDM=RUIM, NULL, UNKNOWN, -113;McWill=POWER OFF, LOGOUT, -111, Poor}
+07-19 15:33:38.712  1106  1106 I RUIMD   : {13570818004} Login {13.228.189.229:18080} Response : code=[20] ,desc={User Operating}
+07-19 15:33:38.712  1106  1106 I RUIMD   : Socket {SDK} Send Package {a016:0000a016} : Serial=[0412] Options=[00] Data[0004]=[00000014...] CRC=[c42e]
+07-19 15:33:38.712  1106  1106 D RUIMD   : Socket {SDK} Send    17 bytes. SO_SNDBUF usage :      0/212992
+07-19 15:33:38.712  1106  1106 D RUIMD   : ------------------------------------------------------------
+07-19 15:33:38.713  1106  1106 I RUIMD   : ServerLoginRequest(0, 0, 0, "NULL") = {0, 0, 0, "Pass"}
+07-19 15:33:38.713  1106  1106 D RUIMD   : ------------------------------------------------------------
+07-19 15:33:38.713  1106  1106 D RUIMD   : server_login(policy={ENABLE : User Operating}, status={DISABLE : User Operating}, next_call = 300s)
+07-19 15:33:39.085  1106  1106 D RUIMD   : Socket {SERVER} Recv    25 bytes. SO_RCVBUF usage :      0/1048576
+07-19 15:33:39.085  1106  1106 I RUIMD   : Socket {SERVER} Recv Package {0001:LOGIN} : Serial=[004f] Option=[00] Data[000c]=[0a0a08002206657272206f6b...] CRC=[3bb5]
+07-19 15:33:39.085  1106  1106 D RUIMD   : --------------------- ServerLoginResponse ---------------------
+07-19 15:33:39.085  1106  1106 D RUIMD   : server_login(policy={ENABLE : User Operating}, status={DISABLE : User Operating}, next_call = 300s)
+07-19 15:33:39.085  1106  1106 I RUIMD   : Proto Version: (null)
+07-19 15:33:39.085  1106  1106 I RUIMD   : Codes Version: (null)
+07-19 15:33:39.085  1106  1106 I RUIMD   : SW Version: (null)
+07-19 15:33:39.085  1106  1106 I RUIMD   : SW Upgrade: (null)
+07-19 15:33:39.085  1106  1106 I RUIMD   : User {13570818004} Login Server Success!
+07-19 15:33:39.085  1106  1106 I RUIMD   : [DXBQ] ServerLoginResponse {13570818004} Login Server Success! : Codes {Pass}
+07-19 15:33:39.085  1106  1106 D RUIMD   : server_login.SetStatusCause, status : 1, cause : Pass
+07-19 15:33:39.085  1106  1106 D RUIMD   : System State: {WorkMode=NORMAL;NetWork=WIFI;Connection=Pass;Login=Pass;RUIM=User Operating;IMG=Non RUIM;SIM=Non RUIM;AUTH=Non RUIM;REG=Non RUIM;MDM=RUIM, NULL, UNKNOWN, -113;McWill=POWER OFF, LOGOUT, -111, Poor}
+07-19 15:33:39.085  1106  1106 I RUIMD   : {13570818004} Login {13.228.189.229:18080} Response : code=[21] ,desc={Pass}
+07-19 15:33:39.085  1106  1106 I RUIMD   : Socket {SDK} Send Package {a016:0000a016} : Serial=[0413] Options=[00] Data[0004]=[00000015...] CRC=[043f]
+07-19 15:33:39.086  1106  1106 D RUIMD   : Socket {SDK} Send    17 bytes. SO_SNDBUF usage :    768/212992
+07-19 15:33:39.086  1106  1106 D RUIMD   : server_login.SetStatusCause, status : 1, cause : NULL
+07-19 15:33:39.086  1106  1106 D RUIMD   : server_schedule(policy={ENABLE : User Operating}, status={DISABLE : User Operating}, next_call = 0s)
+07-19 15:33:39.086  1106  1106 D RUIMD   : ------------------------------------------------------------
+07-19 15:33:39.086  1106  1106 I RUIMD   : ServerLoginResponse(0, 0, 0, "NULL") = {0, 0, 0, "err ok"}
+07-19 15:33:39.086  1106  1106 D RUIMD   : ------------------------------------------------------------
+07-19 15:33:39.086  1106  1106 D RUIMD   : System State: {WorkMode=NORMAL;NetWork=WIFI;Connection=Pass;Login=Pass;RUIM=User Operating;IMG=Non RUIM;SIM=Non RUIM;AUTH=Non RUIM;REG=Non RUIM;MDM=RUIM, NULL, UNKNOWN, -113;McWill=POWER OFF, LOGOUT, -111, Poor}
+07-19 15:33:39.088  1106  1106 D RUIMD   : Socket {SERVER} Recv    19 bytes. SO_RCVBUF usage :      0/1048576
+07-19 15:33:39.088  1106  1106 I RUIMD   : Socket {SERVER} Recv Package {1001:TERM INFO} : Serial=[0000] Option=[00] Data[0006]=[08d0fdc0da05...] CRC=[c573]
+07-19 15:33:39.096  1106  1106 D RUIMD   : --------------------- TermInfoResponse ---------------------
+07-19 15:33:39.096  1106  1106 D RUIMD   : [XBQ] LocalRecordCurrentSecond
+07-19 15:33:39.096  1106  1106 I RUIMD   : serialno = 36bf0e42, model = C8, sw_ver = 312e32, buildno = C8_KHM_MSM8976_V1.1.314.201807061756.user
+07-19 15:33:39.096  1106  1106 I RUIMD   : sw_ver = 312e32, ini_ver = d41d8cd9
+07-19 15:33:39.097  1106  1106 I RUIMD   : Socket {SERVER} Send Package {1001:TERM INFO} : Serial=[0000] Options=[00] Data[006e]=[0a6c0a08333662663065343212024338...] CRC=[db10]
+07-19 15:33:39.097  1106  1106 D RUIMD   : Socket {SERVER} Send   123 bytes. SO_SNDBUF usage :    123/524288
+07-19 15:33:39.097  1106  1106 D RUIMD   : ------------------------------------------------------------
+07-19 15:33:39.097  1106  1106 I RUIMD   : TermInfoResponse(0, 0, 0, "NULL") = {0, 0, 0, "Pass"}
+07-19 15:33:39.097  1106  1106 D RUIMD   : ------------------------------------------------------------
+07-19 15:33:39.097  1106  1106 D RUIMD   : System State: {WorkMode=NORMAL;NetWork=WIFI;Connection=Pass;Login=Pass;RUIM=User Operating;IMG=Non RUIM;SIM=Non RUIM;AUTH=Non RUIM;REG=Non RUIM;MDM=RUIM, NULL, UNKNOWN, -113;McWill=POWER OFF, LOGOUT, -111, Poor}
+07-19 15:33:39.097  1106  1106 D RUIMD   : Socket {SDK} Recv    13 bytes. SO_RCVBUF usage :      0/212992
+07-19 15:33:39.102  1106  1106 I RUIMD   : Socket {SDK} Recv Package {a015:0000a015} : Serial=[0000] Option=[00] Data[0000]=[...] CRC=[f179]
+07-19 15:33:39.102  1106  1106 I RUIMD   : Socket {SDK} Send Package {a015:0000a015} : Serial=[0414] Options=[00] Data[0004]=[5b503ed0...] CRC=[869b]
+07-19 15:33:39.102  1106  1106 D RUIMD   : Socket {SDK} Send    17 bytes. SO_SNDBUF usage :      0/212992
+07-19 15:33:39.711  1106  1106 D RUIMD   : --------------------- ServerReqUimRequest ---------------------
+07-19 15:33:39.711  1106  1106 I RUIMD   : Message Modem IMEI : 911346459901380
+07-19 15:33:39.711  1106  1106 I RUIMD   : Message Modem IMSI : (null)
+07-19 15:33:39.711  1106  1106 I RUIMD   : Message Modem UIM_STATE : ABSENT
+07-19 15:33:39.711  1106  1106 I RUIMD   : Message Modem Cell Search: 
+07-19 15:33:39.712  1106  1106 I RUIMD   : cell: mcc=[460], mnc=[00], rat={2G}, rssi:[-208]dBm, lac=[null], cid=[null], cs_status={null : null}, ps_status={null : null}
+07-19 15:33:39.712  1106  1106 D RUIMD   : server_schedule(policy={ENABLE : User Operating}, status={DISABLE : User Operating}, next_call = Pauses)
+07-19 15:33:39.712  1106  1106 I RUIMD   : Socket {SDK} Send Package {a016:0000a016} : Serial=[0415] Options=[00] Data[0004]=[0000001e...] CRC=[459e]
+07-19 15:33:39.712  1106  1106 D RUIMD   : Socket {SDK} Send    17 bytes. SO_SNDBUF usage :    768/212992
+07-19 15:33:39.712  1106  1106 D RUIMD   : ------------------------------------------------------------
+07-19 15:33:39.712  1106  1106 I RUIMD   : ServerReqUimRequest(0, 0, 0, "NULL") = {0, 0, 0, "Pass"}
+07-19 15:33:39.712  1106  1106 D RUIMD   : ------------------------------------------------------------
+07-19 15:33:39.712  1106  1106 D RUIMD   : server_schedule(policy={ENABLE : User Operating}, status={DISABLE : User Operating}, next_call = Pauses)
+07-19 15:33:39.712  1106  1106 I RUIMD   : Socket {SERVER} Send Package {0003:REQ UIM} : Serial=[0050] Options=[00] Data[001c]=[0a1a0a0819316454991083f018012a0c...] CRC=[27f1]
+07-19 15:33:39.712  1106  1106 D RUIMD   : Socket {SERVER} Send    41 bytes. SO_SNDBUF usage :    164/524288
+07-19 15:33:40.325  1106  1106 D RUIMD   : Socket {SERVER} Recv    75 bytes. SO_RCVBUF usage :      0/1048576
+07-19 15:33:40.325  1106  1106 I RUIMD   : Socket {SERVER} Recv Package {0003:REQ UIM} : Serial=[0050] Option=[00] Data[003e]=[0a0a08002206657272206f6b12220a08...] CRC=[48bd]
+07-19 15:33:40.325  1106  1106 D RUIMD   : --------------------- ServerReqUimResponse ---------------------
+07-19 15:33:40.325  1106  1106 D RUIMD   : server_schedule.SetStatusCause, status : 1, cause : NULL
+07-19 15:33:40.325  1106  1106 D RUIMD   : server_schedule(policy={ENABLE : User Operating}, status={ENABLE : User Operating}, next_call = 60s)
+07-19 15:33:40.325  1106  1106 I RUIMD   : Socket {SDK} Send Package {a016:0000a016} : Serial=[0416] Options=[00] Data[0004]=[0000001f...] CRC=[846d]
+07-19 15:33:40.325  1106  1106 D RUIMD   : Socket {SDK} Send    17 bytes. SO_SNDBUF usage :    768/212992
+07-19 15:33:40.325  1106  1106 I RUIMD   : Message UIM IMSI : 460111136695083
+07-19 15:33:40.325  1106  1106 I RUIMD   : Message UIM IMG_MD5 : e2b63d0cb1c274d7f1f608bcdab5d557
+07-19 15:33:40.325  1106  1106 I RUIMD   : Message UIM PDP : []
+07-19 15:33:40.325  1106  1106 I RUIMD   : Message UIM Roaming : 1
+07-19 15:33:40.325  1106  1106 I RUIMD   : Message UIM Activate : (null)
+07-19 15:33:40.325  1106  1106 I RUIMD   : Message UIM IMEI : (null)
+07-19 15:33:40.325  1106  1106 I RUIMD   : Message UIM ICCID : (null)
+07-19 15:33:40.325  1106  1106 I RUIMD   : Message UIM PhoneNumber : (null)
+07-19 15:33:40.326  1106  1106 D RUIMD   : --------------------- ServerSimImgRequest ---------------------
+07-19 15:33:40.326  1106  1106 D RUIMD   : ------------------------------------------------------------
+07-19 15:33:40.326  1106  1106 I RUIMD   : ServerSimImgRequest(0, 0, 0, "NULL") = {0, 0, 0, "Pass"}
+07-19 15:33:40.326  1106  1106 D RUIMD   : ------------------------------------------------------------
+07-19 15:33:40.326  1106  1106 I RUIMD   : Request UIM Card 460111136695083 Success!
+07-19 15:33:40.326  1106  1106 D RUIMD   : ------------------------------------------------------------
+07-19 15:33:40.326  1106  1106 I RUIMD   : ServerReqUimResponse(0, 0, 0, "NULL") = {0, 0, 0, "err ok"}
+07-19 15:33:40.326  1106  1106 D RUIMD   : ------------------------------------------------------------
+07-19 15:33:40.326  1106  1106 D RUIMD   : System State: {WorkMode=NORMAL;NetWork=WIFI;Connection=Pass;Login=Pass;RUIM=Pass;IMG=Application;SIM=ABSENT;AUTH=Idle;REG=NOT REG,0,NOT REG,0;MDM=RUIM, 460111136695083, UNKNOWN, -113;McWill=POWER OFF, LOGOUT, -111, Poor}
+07-19 15:33:40.713  1106  1106 I RUIMD   : Socket {SERVER} Send Package {0006:UIM IMG} : Serial=[0051] Options=[00] Data[0000]=[...] CRC=[1ebf]
+07-19 15:33:40.713  1106  1106 D RUIMD   : Socket {SERVER} Send    13 bytes. SO_SNDBUF usage :     13/524288
+07-19 15:33:41.105  1106  1106 D RUIMD   : Socket {SERVER} Recv  2252 bytes. SO_RCVBUF usage :      0/1048576
+07-19 15:33:41.105  1106  1106 I RUIMD   : Socket {SERVER} Recv Package {0006:UIM IMG} : Serial=[0051] Option=[00] Data[08bf]=[0a0a08002206657272206f6b12b01178...] CRC=[8fc6]
+07-19 15:33:41.106  1106  1106 D RUIMD   : --------------------- ServerSimImgResponse ---------------------
+07-19 15:33:41.106  1106  1106 I RUIMD   : Request UIM Card {460111136695083} Image File Success!
+07-19 15:33:41.127  1106  1106 D RUIMD   : UIM File /data/ruimd/img/460111136695083.gzip Size = 2224
+07-19 15:33:41.127  1106  1106 D RUIMD   : MD5: e2b63d0cb1c274d7f1f608bcdab5d557
+07-19 15:33:41.128  1106  1106 D RUIMD   : UIM File /data/ruimd/img/460111136695083.bin Size = 15403
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: The current xicc type is 1
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 offset:0x0,global:0x3c2b,trigger:1,tag:0x69
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 offset:0x8,global:0x3c2b,trigger:1,tag:0x76
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 offset:0x20,global:0x3c2b,trigger:1,tag:0x70
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: The id is:3F00000000000000
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 offset:0x2b,global:0x3c2b,trigger:1,tag:0x71
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_DESCRIPTOR_TAG:0x2c
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: The DF offset is 2E
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 offset:0x59,global:0x3c2b,trigger:1,tag:0x70
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: The id is:A000000087100200
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 offset:0x64,global:0x3c2b,trigger:1,tag:0x71
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_DESCRIPTOR_TAG:0x65
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: The DF offset is 67
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 offset:0x97,global:0x3c2b,trigger:1,tag:0x72
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: The id is:2FE2000000000000
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 offset:0xa2,global:0x3c2b,trigger:1,tag:0x71
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_DESCRIPTOR_TAG:0xa3
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: Special the EF bin offset is A5
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 offset:0xc0,global:0x3c2b,trigger:1,tag:0x73
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_EF_BIN_DATA_TAG:0xc1
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: bin_data_len is 0X0C
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##2 CTF_VSIM_EF_BIN_DATA_TAG:0xcf,tag:0x72
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 offset:0xcf,global:0x3c2b,trigger:1,tag:0x72
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: The id is:2F05000000000000
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 offset:0xda,global:0x3c2b,trigger:1,tag:0x71
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_DESCRIPTOR_TAG:0xdb
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: Special the EF bin offset is DD
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 offset:0xf8,global:0x3c2b,trigger:1,tag:0x73
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_EF_BIN_DATA_TAG:0xf9
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: bin_data_len is 0X06
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##2 CTF_VSIM_EF_BIN_DATA_TAG:0x101,tag:0x74
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 offset:0x101,global:0x3c2b,trigger:1,tag:0x74
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_EF_RECORD_TAG:0x102
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: The id is:2F00000000000000
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 offset:0x10c,global:0x3c2b,trigger:1,tag:0x71
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_DESCRIPTOR_TAG:0x10d
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: The EF bin offset is 10F
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: #########Create sub record list at here.
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 offset:0x12d,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: Sub record index is:1
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 offset:0x163,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: Sub record index is:2
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 offset:0x199,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: Sub record index is:3
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 offset:0x1cf,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: Sub record index is:4
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 offset:0x205,global:0x3c2b,trigger:1,tag:0x74
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_EF_RECORD_TAG:0x206
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: The id is:2F06000000000000
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 offset:0x210,global:0x3c2b,trigger:1,tag:0x71
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_DESCRIPTOR_TAG:0x211
+07-19 15:33:41.169  1106  1106 I RUIMD_VSIM: The EF bin offset is 213
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: #########Create sub record list at here.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x231,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:1
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x263,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:2
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x295,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:3
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x2c7,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:4
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x2f9,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:5
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x32b,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:6
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x35d,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:7
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x38f,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:8
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x3c1,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:9
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x3f3,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:10
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x425,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:11
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x457,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:12
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x489,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:13
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x4bb,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:14
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x4ed,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:15
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x51f,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:16
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x551,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:17
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x583,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:18
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x5b5,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:19
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x5e7,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:20
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x619,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:21
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x64b,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:22
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x67d,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:23
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x6af,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:24
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: ##1 offset:0x6e1,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.170  1106  1106 I RUIMD_VSIM: Sub record index is:25
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0x713,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: Sub record index is:26
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0x745,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: Sub record index is:27
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0x777,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: Sub record index is:28
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0x7a9,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: Sub record index is:29
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0x7db,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: Sub record index is:30
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0x80d,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: Sub record index is:31
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0x83f,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: Sub record index is:32
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0x871,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: Sub record index is:33
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0x8a3,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: Sub record index is:34
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0x8d5,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: Sub record index is:35
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0x907,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: Sub record index is:36
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0x939,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: Sub record index is:37
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0x96b,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: Sub record index is:38
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0x99d,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: Sub record index is:39
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0x9cf,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: Sub record index is:40
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0xa01,global:0x3c2b,trigger:1,tag:0x70
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: The id is:7FF0000000000000
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0xa0c,global:0x3c2b,trigger:1,tag:0x71
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_DESCRIPTOR_TAG:0xa0d
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: The DF offset is A0F
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0xa3f,global:0x3c2b,trigger:1,tag:0x72
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: The id is:7FF06F0700000000
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0xa4a,global:0x3c2b,trigger:1,tag:0x71
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_DESCRIPTOR_TAG:0xa4b
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: Special the EF bin offset is A4D
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0xa68,global:0x3c2b,trigger:1,tag:0x72
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: The id is:7FF06FAD00000000
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0xa73,global:0x3c2b,trigger:1,tag:0x71
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_DESCRIPTOR_TAG:0xa74
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: Special the EF bin offset is A76
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0xa91,global:0x3c2b,trigger:1,tag:0x74
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_EF_RECORD_TAG:0xa92
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: The id is:7FF06F0600000000
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0xa9c,global:0x3c2b,trigger:1,tag:0x71
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_DESCRIPTOR_TAG:0xa9d
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: The EF bin offset is A9F
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: #########Create sub record list at here.
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0xabd,global:0x3c2b,trigger:1,tag:0x72
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: The id is:7FF06F0900000000
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0xac8,global:0x3c2b,trigger:1,tag:0x71
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_DESCRIPTOR_TAG:0xac9
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: Special the EF bin offset is ACB
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0xae6,global:0x3c2b,trigger:1,tag:0x74
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_EF_RECORD_TAG:0xae7
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: The id is:7FF06F3C00000000
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 offset:0xaf1,global:0x3c2b,trigger:1,tag:0x71
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_DESCRIPTOR_TAG:0xaf2
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: The EF bin offset is AF4
+07-19 15:33:41.171  1106  1106 I RUIMD_VSIM: #########Create sub record list at here.
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xb11,global:0x3c2b,trigger:1,tag:0x72
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: The id is:7FF06F4300000000
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xb1c,global:0x3c2b,trigger:1,tag:0x71
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_DESCRIPTOR_TAG:0xb1d
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: Special the EF bin offset is B1F
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xb39,global:0x3c2b,trigger:1,tag:0x74
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_EF_RECORD_TAG:0xb3a
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: The id is:7FF06F4700000000
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xb44,global:0x3c2b,trigger:1,tag:0x71
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_DESCRIPTOR_TAG:0xb45
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: The EF bin offset is B47
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: #########Create sub record list at here.
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xb64,global:0x3c2b,trigger:1,tag:0x70
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: The id is:7FFF000000000000
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xb6f,global:0x3c2b,trigger:1,tag:0x71
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_DESCRIPTOR_TAG:0xb70
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: The DF offset is B72
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xba2,global:0x3c2b,trigger:1,tag:0x72
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: The id is:7FFF6F0500000000
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xbad,global:0x3c2b,trigger:1,tag:0x71
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_DESCRIPTOR_TAG:0xbae
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: Special the EF bin offset is BB0
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xbcb,global:0x3c2b,trigger:1,tag:0x73
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_EF_BIN_DATA_TAG:0xbcc
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: bin_data_len is 0X0A
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##2 CTF_VSIM_EF_BIN_DATA_TAG:0xbd8,tag:0x74
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xbd8,global:0x3c2b,trigger:1,tag:0x74
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_EF_RECORD_TAG:0xbd9
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: The id is:7FFF6F0600000000
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xbe3,global:0x3c2b,trigger:1,tag:0x71
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_DESCRIPTOR_TAG:0xbe4
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: The EF bin offset is BE6
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: #########Create sub record list at here.
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xc04,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: Sub record index is:1
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xc36,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: Sub record index is:2
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xc68,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: Sub record index is:3
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xc9a,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: Sub record index is:4
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xccc,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: Sub record index is:5
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xcfe,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: Sub record index is:6
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xd30,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: Sub record index is:7
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xd62,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: Sub record index is:8
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xd94,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: Sub record index is:9
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xdc6,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: Sub record index is:10
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xdf8,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: Sub record index is:11
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xe2a,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: Sub record index is:12
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xe5c,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: Sub record index is:13
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: ##1 offset:0xe8e,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.172  1106  1106 I RUIMD_VSIM: Sub record index is:14
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0xec0,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:15
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0xef2,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:16
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0xf24,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:17
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0xf56,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:18
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0xf88,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:19
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0xfba,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:20
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0xfec,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:21
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0x101e,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:22
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0x1050,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:23
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0x1082,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:24
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0x10b4,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:25
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0x10e6,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:26
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0x1118,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:27
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0x114a,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:28
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0x117c,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:29
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0x11ae,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:30
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0x11e0,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:31
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0x1212,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:32
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0x1244,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:33
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0x1276,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:34
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0x12a8,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:35
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0x12da,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:36
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0x130c,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:37
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0x133e,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:38
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0x1370,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:39
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0x13a2,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: Sub record index is:40
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: ##1 offset:0x13d4,global:0x3c2b,trigger:1,tag:0x72
+07-19 15:33:41.173  1106  1106 I RUIMD_VSIM: The id is:7FFF6F0700000000
+07-19 15:33:41.174  1106  1106 I RUIMD_VSIM: ##1 offset:0x13df,global:0x3c2b,trigger:1,tag:0x71
+07-19 15:33:41.174  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_DESCRIPTOR_TAG:0x13e0
+07-19 15:33:41.174  1106  1106 I RUIMD_VSIM: Special the EF bin offset is 13E2
+07-19 15:33:41.175  1106  1106 I RUIMD_VSIM: Sub record index is:5
+07-19 15:33:41.175  1106  1106 I RUIMD_VSIM: ##1 offset:0x1779,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.175  1106  1106 I RUIMD_VSIM: The id is:7FFF6F3C00000000
+07-19 15:33:41.179  1106  1106 I RUIMD_VSIM: ##1 offset:0x216a,global:0x3c2b,trigger:1,tag:0x73
+07-19 15:33:41.179  1106  1106 I RUIMD_VSIM: bin_data_len is 0XFC
+07-19 15:33:41.179  1106  1106 I RUIMD_VSIM: ##2 CTF_VSIM_EF_BIN_DATA_TAG:0x2368,tag:0x73
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_EF_BIN_DATA_TAG:0x2864
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: bin_data_len is 0XFC
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: ##2 CTF_VSIM_EF_BIN_DATA_TAG:0x2962,tag:0x73
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: ##1 offset:0x2962,global:0x3c2b,trigger:1,tag:0x73
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_EF_BIN_DATA_TAG:0x2963
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: bin_data_len is 0XFC
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: ##2 CTF_VSIM_EF_BIN_DATA_TAG:0x2a61,tag:0x73
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: ##1 offset:0x2a61,global:0x3c2b,trigger:1,tag:0x73
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_EF_BIN_DATA_TAG:0x2a62
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: bin_data_len is 0XFC
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: ##2 CTF_VSIM_EF_BIN_DATA_TAG:0x2b60,tag:0x72
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: ##1 offset:0x2b60,global:0x3c2b,trigger:1,tag:0x72
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: The id is:7FFF6F6200000000
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: ##1 offset:0x2b6b,global:0x3c2b,trigger:1,tag:0x71
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_DESCRIPTOR_TAG:0x2b6c
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: Special the EF bin offset is 2B6E
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: ##1 offset:0x2b89,global:0x3c2b,trigger:1,tag:0x73
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_EF_BIN_DATA_TAG:0x2b8a
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: bin_data_len is 0X0C
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: ##2 CTF_VSIM_EF_BIN_DATA_TAG:0x2b98,tag:0x72
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: ##1 offset:0x2b98,global:0x3c2b,trigger:1,tag:0x72
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: The id is:7FFF6F7300000000
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: ##1 offset:0x2ba3,global:0x3c2b,trigger:1,tag:0x71
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_DESCRIPTOR_TAG:0x2ba4
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: Special the EF bin offset is 2BA6
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: ##1 offset:0x2bc1,global:0x3c2b,trigger:1,tag:0x73
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_EF_BIN_DATA_TAG:0x2bc2
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: bin_data_len is 0X10
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: ##2 CTF_VSIM_EF_BIN_DATA_TAG:0x2bd4,tag:0x72
+07-19 15:33:41.180  1106  1106 I RUIMD_VSIM: ##1 offset:0x2bd4,global:0x3c2b,trigger:1,tag:0x72
+07-19 15:33:41.181  1106  1106 I RUIMD_VSIM: ##2 CTF_VSIM_EF_BIN_DATA_TAG:0x2c6e,tag:0x72
+07-19 15:33:41.181  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_DESCRIPTOR_TAG:0x2cb3
+07-19 15:33:41.181  1106  1106 I RUIMD_VSIM: Sub record index is:2
+07-19 15:33:41.181  1106  1106 I RUIMD_VSIM: ##1 offset:0x2d8b,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.181  1106  1106 I RUIMD_VSIM: Sub record index is:7
+07-19 15:33:41.181  1106  1106 I RUIMD_VSIM: ##1 offset:0x2e71,global:0x3c2b,trigger:1,tag:0x75
+07-19 15:33:41.189  1106  1106 I RUIMD_VSIM: $$$$$$$$Add new sub record into the list.
+07-19 15:33:41.189  1106  1106 I RUIMD_VSIM: ##1 offset:0x3837,global:0x3c2b,trigger:1,tag:0x73
+07-19 15:33:41.189  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_EF_BIN_DATA_TAG:0x3838
+07-19 15:33:41.189  1106  1106 I RUIMD_VSIM: bin_data_len is 0X0B
+07-19 15:33:41.189  1106  1106 I RUIMD_VSIM: ##2 CTF_VSIM_EF_BIN_DATA_TAG:0x3845,tag:0x72
+07-19 15:33:41.189  1106  1106 I RUIMD_VSIM: ##1 offset:0x3845,global:0x3c2b,trigger:1,tag:0x72
+07-19 15:33:41.189  1106  1106 I RUIMD_VSIM: The id is:7FFF5F3B4F520000
+07-19 15:33:41.189  1106  1106 I RUIMD_VSIM: ##1 offset:0x3850,global:0x3c2b,trigger:1,tag:0x71
+07-19 15:33:41.189  1106  1106 I RUIMD_VSIM: ##1 CTF_VSIM_EF_RECORD_TAG:0x387d
+07-19 15:33:41.189  1106  1106 I RUIMD_VSIM: ##1 offset:0x3887,global:0x3c2b,trigger:1,tag:0x71
+07-19 15:33:41.190  1106  1106 I RUIMD_VSIM: The EF bin offset is 388A
+07-19 15:33:41.190  1106  1106 I RUIMD_VSIM: #########Create sub record list at here.
+07-19 15:33:41.246  1106  1106 I RUIMD   : uim.imsi = 460111136695083
+07-19 15:33:41.246  1106  1106 I RUIMD   : uim.img_md5 = e2b63d0cb1c274d7f1f608bcdab5d557
+07-19 15:33:41.246  1106  1106 I RUIMD   : modem.cell_list[] : 
+07-19 15:33:41.246  1106  1106 I RUIMD   : UIM PDP : []
+07-19 15:33:41.246  1106  1106 I RUIMD   : UIM Roaming : 1
+07-19 15:33:41.247  1106  1106 I RUIMD   : UIM Activate : 
+07-19 15:33:41.247  1106  1106 I RUIMD   : UIM IMEI : 
+07-19 15:33:41.247  1106  1106 I RUIMD   : UIM ICCID : 
+07-19 15:33:41.247  1106  1106 I RUIMD   : UIM PhoneNumver : 
+07-19 15:33:41.247  1106  1106 I RUIMD   : Socket {SDK} Send Package {a006:UIM Para} : Serial=[0417] Options=[00] Data[000b]=[010001ffffffffffffffff...] CRC=[e26f]
+07-19 15:33:41.247  1106  1106 D RUIMD   : Socket {SDK} Send    24 bytes. SO_SNDBUF usage :      0/212992
+07-19 15:33:41.247  1106  1106 I RUIMD   : Socket {SDK} Send Package {a008:Init UIM} : Serial=[0418] Options=[00] Data[0001]=[01...] CRC=[4f8f]
+07-19 15:33:41.247  1106  1106 D RUIMD   : Socket {SDK} Send    14 bytes. SO_SNDBUF usage :    768/212992
+07-19 15:33:41.247  1106  1106 I RUIMD   : fwrite file /data/ruimd/img/460111136695083.gzip failed! 2224, 1
+07-19 15:33:41.248  1106  1106 D RUIMD   : ------------------------------------------------------------
+07-19 15:33:41.248  1106  1106 I RUIMD   : ServerSimImgResponse(0, 0, 0, "NULL") = {0, 0, 0, "err ok"}
+07-19 15:33:41.248  1106  1106 D RUIMD   : ------------------------------------------------------------
+07-19 15:33:41.248  1106  1106 D RUIMD   : System State: {WorkMode=NORMAL;NetWork=WIFI;Connection=Pass;Login=Pass;RUIM=Pass;IMG=Pass;SIM=ABSENT;AUTH=Idle;REG=NOT REG,0,NOT REG,0;MDM=RUIM, 460111136695083, UNKNOWN, -113;McWill=POWER OFF, LOGOUT, -111, Poor}
+07-19 15:33:41.259  1106  1106 D RUIMD   : Socket {SDK} Recv    13 bytes. SO_RCVBUF usage :      0/212992
+07-19 15:33:41.260  1106  1106 I RUIMD   : Socket {SDK} Recv Package {a006:UIM Para} : Serial=[0000] Option=[00] Data[0000]=[...] CRC=[f5fd]
+07-19 15:33:41.260  1106  1106 D RUIMD   : Set UIM Param Success!
+07-19 15:33:41.261  1106  1106 D RUIMD   : Socket {SDK} Recv    14 bytes. SO_RCVBUF usage :      0/212992
+07-19 15:33:41.261  1106  1106 I RUIMD   : Socket {SDK} Recv Package {a008:Init UIM} : Serial=[0000] Option=[00] Data[0001]=[01...] CRC=[8586]
+07-19 15:33:41.261  1106  1106 I RUIMD   : Init RemoteUIM Success! 
+07-19 15:33:41.441  1106  1106 D RUIMD   : Socket {SDK} Recv    30 bytes. SO_RCVBUF usage :      0/212992
+07-19 15:33:41.441  1106  1106 I RUIMD   : Socket {SDK} Recv Package {a003:UIM Info} : Serial=[0000] Option=[00] Data[0011]=[010000f0000071ffffffffffff000000...] CRC=[bd3c]
+07-19 15:33:41.441  1106  1106 W RUIMD   : Remote UIM Status is UNKNOWN
+07-19 15:33:41.441  1106  1106 D RUIMD   : Notify Message : Remote UIM Status is UNKNOWN
+07-19 15:33:41.441  1106  1106 I RUIMD   : Remote Uim Status={UNKNOWN}, CS=NOT REG:0 PS=NOT REG:0
+07-19 15:33:41.441  1106  1106 I RUIMD   : cell: mcc=[0], mnc=[00], rat={UNKNOWN}, rssi:[-113]dBm, lac=[65535], cid=[-1], cs_status={NOT REG : 0}, ps_status={NOT REG : 0}
+07-19 15:33:41.441  1106  1106 D RUIMD   : System State: {WorkMode=NORMAL;NetWork=WIFI;Connection=Pass;Login=Pass;RUIM=Pass;IMG=Pass;SIM=UNKNOWN;AUTH=Idle;REG=NOT REG,0,NOT REG,0;MDM=RUIM, 460111136695083, UNKNOWN, -113;McWill=POWER OFF, LOGOUT, -111, Poor}
+07-19 15:33:42.286  1106  1106 D RUIMD   : System State: {WorkMode=NORMAL;NetWork=WIFI;Connection=Pass;Login=Pass;RUIM=Pass;IMG=Pass;SIM=READY;AUTH=Idle;REG=NOT REG,0,NOT REG,0;MDM=RUIM, 460111136695083, UNKNOWN, -113;McWill=POWER OFF, LOGOUT, -111, Poor}
+07-19 15:33:42.349  1106  1106 D RUIMD   : Socket {SDK} Recv    30 bytes. SO_RCVBUF usage :      0/212992
+07-19 15:33:42.349  1106  1106 I RUIMD   : Socket {SDK} Recv Package {a003:UIM Info} : Serial=[0000] Option=[00] Data[0011]=[010500f0000071ffffffffffff020002...] CRC=[7eb7]
+07-19 15:33:42.349  1106  1106 D RUIMD   : --------------------- ServerHeartRequest ---------------------
+07-19 15:33:42.375  1106  1106 I RUIMD   : Message Modem IMEI : 911346459901380
+07-19 15:33:42.375  1106  1106 I RUIMD   : Message Modem IMSI : 460111136695083
+07-19 15:33:42.375  1106  1106 I RUIMD   : Message Modem UIM_STATE : READY
+07-19 15:33:42.375  1106  1106 I RUIMD   : cell: mcc=[0], mnc=[00], rat={UNKNOWN}, rssi:[-113]dBm, lac=[65535], cid=[-1], cs_status={SEARCHING : 0}, ps_status={SEARCHING : 0}
+07-19 15:33:42.375  1106  1106 I RUIMD   : Message Modem Cell Search: 
+07-19 15:33:42.375  1106  1106 I RUIMD   : Socket {SERVER} Send Package {0008:HEART BEAT} : Serial=[0052] Options=[00] Data[0043]=[082012340a0819316454991083f01208...] CRC=[6547]
+07-19 15:33:42.375  1106  1106 D RUIMD   : Socket {SERVER} Send    80 bytes. SO_SNDBUF usage :     80/524288
+07-19 15:33:42.375  1106  1106 D RUIMD   : ------------------------------------------------------------
+07-19 15:33:42.375  1106  1106 I RUIMD   : ServerHeartRequest(0, 0, 0, "NULL") = {0, 0, 0, "Pass"}
+07-19 15:33:42.375  1106  1106 D RUIMD   : ------------------------------------------------------------
+07-19 15:33:42.375  1106  1106 I RUIMD   : Remote Uim Status={READY}, CS=SEARCHING:0 PS=SEARCHING:0
+07-19 15:33:42.375  1106  1106 I RUIMD   : cell: mcc=[0], mnc=[00], rat={UNKNOWN}, rssi:[-113]dBm, lac=[65535], cid=[-1], cs_status={SEARCHING : 0}, ps_status={SEARCHING : 0}
+07-19 15:33:42.375  1106  1106 D RUIMD   : System State: {WorkMode=NORMAL;NetWork=WIFI;Connection=Pass;Login=Pass;RUIM=Pass;IMG=Pass;SIM=READY;AUTH=Idle;REG=SEARCHING,0,SEARCHING,0;MDM=RUIM, 460111136695083, UNKNOWN, -113;McWill=POWER OFF, LOGOUT, -111, Poor}
+07-19 15:33:45.713  1106  1106 D RUIMD   : server_connect(policy={ENABLE : User Operating}, status={ENABLE : Pass}, next_call = 7s)
+07-19 15:33:46.021  1106  1106 D RUIMD   : Socket {SDK} Recv    30 bytes. SO_RCVBUF usage :      0/212992
+07-19 15:33:46.021  1106  1106 I RUIMD   : Socket {SDK} Recv Package {a003:UIM Info} : Serial=[0000] Option=[00] Data[0011]=[010500f0000071ffffffffffff000000...] CRC=[7e6f]
+07-19 15:33:46.021  1106  1106 D RUIMD   : --------------------- ServerHeartRequest ---------------------
+07-19 15:33:46.047  1106  1106 I RUIMD   : Message Modem IMEI : 911346459901380
+07-19 15:33:46.047  1106  1106 I RUIMD   : Message Modem IMSI : 460111136695083
+07-19 15:33:46.047  1106  1106 I RUIMD   : Message Modem UIM_STATE : READY
+07-19 15:33:46.047  1106  1106 I RUIMD   : cell: mcc=[0], mnc=[00], rat={UNKNOWN}, rssi:[-113]dBm, lac=[65535], cid=[-1], cs_status={NOT REG : 0}, ps_status={NOT REG : 0}
+07-19 15:33:46.047  1106  1106 I RUIMD   : Message Modem Cell Search: 
+07-19 15:33:46.048  1106  1106 I RUIMD   : Socket {SERVER} Send Package {0008:HEART BEAT} : Serial=[0053] Options=[00] Data[0043]=[082012340a0819316454991083f01208...] CRC=[c9ec]
+07-19 15:33:46.048  1106  1106 D RUIMD   : Socket {SERVER} Send    80 bytes. SO_SNDBUF usage :     80/524288
+07-19 15:33:46.048  1106  1106 D RUIMD   : ------------------------------------------------------------
+07-19 15:33:46.048  1106  1106 I RUIMD   : ServerHeartRequest(0, 0, 0, "NULL") = {0, 0, 0, "Pass"}
+07-19 15:33:46.048  1106  1106 D RUIMD   : ------------------------------------------------------------
+07-19 15:33:46.048  1106  1106 I RUIMD   : Remote Uim Status={READY}, CS=NOT REG:0 PS=NOT REG:0
+07-19 15:33:46.048  1106  1106 I RUIMD   : cell: mcc=[0], mnc=[00], rat={UNKNOWN}, rssi:[-113]dBm, lac=[65535], cid=[-1], cs_status={NOT REG : 0}, ps_status={NOT REG : 0}
+07-19 15:33:46.048  1106  1106 D RUIMD   : System State: {WorkMode=NORMAL;NetWork=WIFI;Connection=Pass;Login=Pass;RUIM=Pass;IMG=Pass;SIM=READY;AUTH=Idle;REG=NOT REG,0,NOT REG,0;MDM=RUIM, 460111136695083, UNKNOWN, -113;McWill=POWER OFF, LOGOUT, -111, Poor}
+07-19 15:33:52.717  1106  1106 D RUIMD   : server_connect(policy={ENABLE : User Operating}, status={ENABLE : Pass}, next_call = 7s)
+07-19 15:33:59.719  1106  1106 D RUIMD   : server_connect(policy={ENABLE : User Operating}, status={ENABLE : Pass}, next_call = 7s)
